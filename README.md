@@ -21,5 +21,6 @@ python doms.py [-h] -w1 WEBSITE_1 -w2 WEBSITE_2
 - DOM hashing in chunks (Domhash but something better on my mind)
 - Auto classification of some websites to known C2 panels
 - Implement some similarity comparison myself instead of using scikit
+- Something like YARA rules but for websites and better (maybe) + simpler
 
 ###### Made by Apollyon
