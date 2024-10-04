@@ -1,2 +1,19 @@
-# DOMS
-Document Object Model Similarity Analysis
+# DOMS 
+###### Document Object Model Similarity Analysis
+
+### Analysis Steps
+#### 1: Heuristics
+Charset, language and code recognition
+#### 2: Linguistic Analysis
+Cosine similarity of the TFIDF text vectors of the code of the two websites and keyword analysis.
+#### 3: Visual Analysis
+Visual similarity of the website. Convolution of the images before similarity analysis to ignore minute changes
+
+### How to use
+```
+python doms.py [-h] -w1 WEBSITE_1 -w2 WEBSITE_2
+```
+### Output example
+![image](https://github.com/user-attachments/assets/be10c818-86c5-4b53-8ab1-0cf48bb60317)
+
+###### Made by Apollyon
