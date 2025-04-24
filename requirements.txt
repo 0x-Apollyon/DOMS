@@ -3,7 +3,7 @@ beautifulsoup4==4.12.3
 certifi==2024.8.30
 charset-normalizer==3.3.2
 click==8.1.7
-h11==0.14.0
+h11==0.16.0
 idna==3.10
 imageio==2.35.1
 joblib==1.4.2
